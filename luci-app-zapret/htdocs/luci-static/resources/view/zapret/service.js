@@ -367,8 +367,8 @@ return view.extend({
             aux2 = E('div', { }, '&nbsp');
         }
         
-        let url1 = 'https://github.com/bol-van/zapret';
-        let url2 = 'https://github.com/remittor/zapret-openwrt';
+        let url1 = '';
+        let url2 = '';
 
         return E([
             E('h2', { 'class': 'fade-in' }, page_title),
