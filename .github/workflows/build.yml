@@ -119,8 +119,6 @@ jobs:
         
         include:
           - branch: openwrt-24.10.2
-            arch: x86_64
-          - branch: openwrt-24.10.2
             arch: aarch64_cortex-a53
           - branch: SNAPSHOT
             arch: aarch64_cortex-a53
