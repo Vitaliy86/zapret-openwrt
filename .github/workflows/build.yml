@@ -110,7 +110,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        branch: [ openwrt-24.10, SNAPSHOT ]
+        branch: [ openwrt-24.10.2, SNAPSHOT ]
         arch:
           - aarch64_cortex-a53
           - aarch64_cortex-a72
@@ -147,9 +147,9 @@ jobs:
             arch: arm_cortex-a7_neon-vfpv4
           - { isTestOrFake: true }
         include:
-          - branch: openwrt-24.10
+          - branch: openwrt-24.10.2
             arch: x86_64
-          - branch: openwrt-24.10
+          - branch: openwrt-24.10.2
             arch: aarch64_cortex-a53
           - branch: SNAPSHOT
             arch: aarch64_cortex-a53
